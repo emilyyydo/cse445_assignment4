@@ -14,7 +14,7 @@
 		</Address>
 	</Hotel>
 
-	<Hotel Rating="4.5">
+	<Hotel>
 		<Name>Embassy Suites</Name>
 		<Phone>602-222-1111</Phone>
 		<Address NearestAirport="Sky Harbor">
@@ -38,7 +38,7 @@
 		</Address>
 	</Hotel>
 
-	<Hotel Rating="3.1">
+	<Hotel>
 		<Name>Days Inn</Name>
 		<Phone>623-434-5500</Phone>
 		<Address NearestAirport="Sky Harbor">
