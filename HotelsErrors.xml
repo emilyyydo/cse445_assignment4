@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Error 1: Root Changed from "Hotels" to "Hotel"-->
-<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
+<Hotel
+	xmlns="https://emilyyydo.github.io/cse445_assignment4"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	  xsi:schemaLocation="https://emilyyydo.github.io/cse445_assignment4 https://emilyyydo.github.io/cse445_assignment4/Hotels.xsd">
 	<Hotel Rating="4.2">
 		<Name>Westin</Name>
 		<Phone>800-937-8461</Phone>

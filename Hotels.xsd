@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="unqualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+		   xmlns="https://emilyyydo.github.io/cse445_assignment4"
+		   targetNamespace="https://emilyyydo.github.io/cse445_assignment4"
+		   elementFormDefault="qualified"
+		   attributeFormDefault="unqualified">
 	<xs:element name="Hotels">
 		<xs:complexType>
 			<xs:sequence>
