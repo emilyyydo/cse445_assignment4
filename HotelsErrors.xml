@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Error 1: Root Changed from "Hotels" to "Hotel"-->
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
+	<Hotel Rating="4.2">
+		<Name>Westin</Name>
+		<Phone>800-937-8461</Phone>
+		<Phone>480-968-8885</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>11</Number>
+			<Street>E.7th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.5">
+		<Name>Embassy Suites</Name>
+		<Phone>602-222-1111</Phone>
+		<!--Error 2: Removed required attribute of nearest airport-->
+		<Address>
+			<Number>10</Number>
+			<Street>E. Thomas Rd</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85012</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.2">
+		<Name>Hyatt Place</Name>
+		<Phone>877-374-3075</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>601</Number>
+			<Street>E. 6th Street</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="3.1">
+		<Name>Days Inn</Name>
+		<!--Error 3: Removed phone element from hotel -->
+		<Address NearestAirport="Sky Harbor">
+			<Number>21636</Number>
+			<Street>N. 26th Ave</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85027</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.3">
+		<Name>Marriot Phoenix Airport</Name>
+		<Phone>602-273-7373</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>1101</Number>
+			<Street>N. 44th St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85008</Zip>
+		<!--Error 4: No closing tag for address-->
+	</Hotel>
+
+	<Hotel Rating="3.9">
+		<Name>Hilton Los Angeles Airport</Name>
+		<Phone>310-410-4000</Phone>
+		<Address NearestAirport="LAX">
+			<Number>5711</Number>
+			<Street>W. Century Blvd</Street>
+			<City>Los Angeles</City>
+			<State>CA</State>
+			<Zip>90045</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="3.9">
+		<Name>Sonesta Los Angeles Airport LAX</Name>
+		<!--Error 5: Extra name element for hotel-->
+		<Name>Sonesta LAX</Name>
+		<Phone>310-642-7500</Phone>
+		<Address NearestAirport="LAX">
+			<Number>5985</Number>
+			<Street>W. Century Blvd</Street>
+			<City>Los Angeles</City>
+			<State>CA</State>
+			<Zip>90045</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.1">
+		<Name>Hyatt Regency Los Angeles International Airport</Name>
+		<Phone>424-702-1234</Phone>
+		<Address NearestAirport="LAX">
+			<Number>6225</Number>
+			<Street>W. Century Blvd</Street>
+			<City>Los Angeles</City>
+			<State>CA</State>
+			<Zip>90045</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.1">
+		<Name>The Westin Los Angeles Airport</Name>
+		<Phone>310-216-5858</Phone>
+		<Address NearestAirport="LAX">
+			<Number>5400</Number>
+			<Street>W. Century Blvd</Street>
+			<City>Los Angeles</City>
+			<State>CA</State>
+			<Zip>90045</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.6">
+		<Name>Waldorf Astoria</Name>
+		<Phone>310-860-6666</Phone>
+		<Address NearestAirport="LAX">
+			<Number>9850</Number>
+			<Street>Wilshire Blvd</Street>
+			<City>Beverly Hills</City>
+			<State>CA</State>
+			<Zip>90210</Zip>
+		</Address>
+	</Hotel>
+</Hotel>
